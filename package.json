@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "goindex-jwt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Google Drive on Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "DoyunShin <doyun.shin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@tsndr/cloudflare-worker-jwt": "^2.1.3"
+  }
+}
